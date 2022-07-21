@@ -76,6 +76,7 @@ section{
     margin-left: 10px;
 }
 
+
 .form-type a input{
     margin-top: 62px;
     margin-left: 2px;
@@ -172,6 +173,10 @@ hr{
 }
 .menu ul{
     display: flex;
+    padding: 0px;
+}
+.icon ul{
+    padding: 0px;
 }
 .menu ul li{
     list-style: none;
@@ -238,6 +243,208 @@ hr{
 
 /* index2 part end  */
 
+
+/* media quaries part1 start  */
+@media screen and (max-width:668px) {
+
+    .banner-content{
+        width:100%;
+        text-align: center;
+
+    }
+    .banner-img{
+        width: 100%;
+        margin-top: 21px;
+    }
+    .banner-container{
+        width:100%;
+        padding: 0px;
+    }
+    .banner-flex{
+        flex-direction: column;
+    }
+    
+    .lives{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .container{
+        width: 100%;
+    }
+    .box{
+        width: 220px;
+        height: 372px;
+        background-color: white;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+    .form-type a input{
+        margin-top: 62px;
+        margin-left: 2px;
+        font-size: 17px;
+        font-weight: 500;
+        text-align: center;
+        padding: 10px 0px;
+        border: 1px solid gray;
+        color: white;
+        border-radius: 10px;
+        background-color: red;
+    }
+    .main-flex{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        grid-row-gap: 10px;
+
+    }
+    .footer{
+        margin-top: 3082px;
+        padding-bottom: 388px;
+    }
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+    .footer-menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .icon ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .icon ul li {
+        padding: 7px 15px;
+    }
+    ul{
+        padding: 0px;
+    }
+    .container{
+        width: 90%;
+    }
+    
+}
+/* media quaries part1 end  */
+
+/* media quaries part2 start  */
+@media screen and (min-width:669px) and (max-width:992px) {     
+    .banner-flex{
+        display: flex;
+        flex-direction: row;
+    }
+    .banner-content{
+        width:50%;
+    }
+    .banner-img{
+        width: 50%;
+        /* margin-top: 21px; */
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    .banner-container{
+        width: 870px;
+        padding-top: 33px;
+        padding-right: 33px;
+        padding-left: 33px;
+        padding-bottom: 33px;
+        margin: 0 auto;
+        margin-top: 50px;
+        border-radius: 30px;
+        background-color:#191616;
+    }
+    .banner-container{
+        width:85%;
+
+    }
+    .banner-flex{
+        flex-direction: row;
+    }
+
+    .lives{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: space-around;
+    }
+    .container{
+        width: 100%;
+    }
+    .main-flex{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        grid-row-gap: 10px;
+
+    }
+    .form-type a{
+        text-decoration: none;
+    }
+    .form-type a input{
+        margin-top: 62px;
+        margin-left: 2px;
+        font-size: 17px;
+        font-weight: 500;
+        text-align: center;
+        padding: 10px 0px;
+        border: none;
+        color: white;
+        border-radius: 10px;
+        background-color: red;
+        display: block;
+    }
+    .box{
+        width:0px;
+        height: 0px;
+        background-color: white;
+        border-radius: 0px;
+        margin-left: 0px;
+    }
+    .form-type{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        /* display: block; */
+    }
+    .box .form-type input{
+        border: 1px solid gray;
+        margin-top: -65px;
+        margin-left: 34px;
+    }
+    .footer{
+        margin-top: 1565px;
+        padding-bottom: 388px;
+    }
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+    .footer-menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .icon ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .icon ul li {
+        padding: 7px 15px;
+    }
+    ul{
+        padding: 0px;
+    }
+    .container{
+        width: 90%;
+    }
+    body{
+        margin: 0;
+    }
+}
+/* media quaries part2 end  */
 
 
 
